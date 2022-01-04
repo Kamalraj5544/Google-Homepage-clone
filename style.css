@@ -1,0 +1,144 @@
+html,body{
+    margin: 0%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#nav{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
+}
+
+#nav a{
+    margin-right: 20px;
+}
+
+#nav a.topImage{
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 10px;
+}
+
+#middle{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo{
+    text-align: center;
+}
+
+#searchbarContainer{
+    text-align: center;
+    margin: top 20px; ;
+    position: relative;
+}
+
+#search{
+    position: absolute;
+    height: 100%;
+    left: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#imgsize{
+    width: 30px;
+    height: 30px;
+    image-resolution: 5px;
+}
+
+#searchbox{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    outline: 0px;
+    width: 600px;
+    border-radius: 15px;
+    border:1px solid rgb(204, 190, 190) ;
+}
+
+#buttons{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.button{
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+    background: rgb(233, 232, 232);
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration:underline ;
+}
+
+#links{
+    text-align: center;
+    margin-top: 20px;
+}
+
+#searchbox:hover{
+    box-shadow: 0 0 10px 5px #eee;
+}
+
+#footer-content {
+    position: relative;
+    background-color: #f7f5f5;
+    border: 2px solid #e9e8e8;
+    padding: 7px 0;
+}
+
+#footer-firstCol {
+    margin-left: 20px;
+}
+
+#footer-secondCol {
+    margin-top: 5px;
+    margin-left: 40px;
+    margin-right: 40px; 
+}
+
+#footer-secondCol .right{
+    display: flex;
+    flex-wrap: wrap;
+    float: right;
+    padding: 10px 0;
+}
+
+#footer-secondCol .left{
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
+    padding: 10px 0;
+}
+
+#footer-secondCol a{
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+#footer-secondCol a {
+    text-decoration: none;
+}
+
+#footer-secondCol a:hover {
+    text-decoration: underline;
+}
+
